@@ -6,7 +6,7 @@ export default function AddCategory() {
   const navigate = useNavigate();
 
   const handleDone = () => {
-    navigate("/dashboard"); // apna dashboard route yahan lagao
+    navigate("/dashboard"); 
   };
 
   return (
@@ -67,10 +67,10 @@ export default function AddCategory() {
       <div className="section">
         <h3>Add Volume</h3>
         <div className="options">
-          <button className="option">500 ml</button>
-          <button className="option">250 ml</button>
-          <button className="option">750 ml</button>
-          <button className="option">1000 ml</button>
+          <button className="option">500 mm </button>
+          <button className="option">250 mm</button>
+          <button className="option">750 mm</button>
+          <button className="option">1000 mm</button>
         </div>
         <button className="add-btn">Add</button>
       </div>

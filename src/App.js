@@ -6,13 +6,14 @@ import Users from './pages/Users';
 import Login from './pages/Login';
 import Seller from './pages/Seller';
 import AddCategory from './pages/AddCategory.js';
+import SendNotification from './pages/SendNotification';
 
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/dashboard" />} />
+        <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/products" element={<Products />} />
@@ -20,6 +21,7 @@ function App() {
         <Route path="/users" element={<Users />} />
          <Route path="/Seller" element={<Seller />} />
          <Route path="/AddCategory" element={<AddCategory />} />
+          <Route path="/SendNotification" element={<SendNotification />} />
       </Routes>
     </Router>
   );

@@ -20,7 +20,7 @@ export default function Navbar({ onSearch }) {
     <div style={{
       height: '60px',
       background: '#f8fafc',
-      borderBottom: '1px solid #e2e8f0',
+      borderBottom: '1px solid #F6F8F9FF',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
@@ -43,7 +43,7 @@ export default function Navbar({ onSearch }) {
           style={{
             padding: '6px 10px',
             borderRadius: '4px 0 0 4px',
-            border: '1px solid #ccc',
+            border: '1px solid #F6F8F9FF',
             width: '250px',
             outline: 'none'
           }}

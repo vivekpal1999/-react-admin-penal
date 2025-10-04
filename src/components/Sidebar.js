@@ -18,15 +18,16 @@ export default function Sidebar() {
     <div
       style={{
         width: "220px",
-        background: "##ADD8EDFF",
+        background: "##0EA0E9FF",
         color: "black",
         height: "100vh",
         paddingTop: "20px",
         position: "fixed",
-        borderRight: "1px solid #1F2021FF",
+        borderRight: "1px solid #F6F8F9FF",
+        background: "#B6CCD7",
       }}
     >
-      <h2 style={{ textAlign: "center", marginBottom: "30px" }}>Admin Panel</h2>
+      <h2 style={{ textAlign: "center", marginBottom: "30px",borderBottom:"4px solid #F6F8F9FF" }}>Admin Panel</h2>
       <ul style={{ listStyle: "none", padding: 0 }}>
         <li
           style={{
@@ -34,7 +35,7 @@ export default function Sidebar() {
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
           }}
         >
           <FaTachometerAlt />{" "}
@@ -47,130 +48,133 @@ export default function Sidebar() {
         </li>
         <li
           style={{
-            padding: "10px 20px",
+            padding: "18px 20px",
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
+            
           }}
         >
           <FaUsers />{" "}
-          <Link to="/users" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="/users" style={{ color: "black", textDecoration: "none" ,fontSize:"14px"}}>
             Customer Management
           </Link>
         </li>
         <li
           style={{
-            padding: "10px 20px",
+            padding: "18px 20px",
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
           }}
         >
           <FaUserTie />
-  <Link to="/Seller" style={{ color: "black", textDecoration: "none" }}>
+  <Link to="/Seller" style={{ color: "black", textDecoration: "none" ,fontSize:"14px" }}>
     Seller Management
   </Link>
         </li>
         <li
           style={{
-            padding: "10px 20px",
+            padding: "18px 20px",
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
           }}
         >
           <FaShoppingCart />{" "}
-          <Link to="/orders" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="/orders" style={{ color: "black", textDecoration: "none" ,fontSize:"14px" }}>
             Order Management
           </Link>
         </li>
         <li
           style={{
-            padding: "10px 20px",
+            padding: "18px 20px",
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
           }}
         >
           <FaTicketAlt />{" "}
-          <Link to="" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="" style={{ color: "black", textDecoration: "none" ,fontSize:"14px" }}>
             Coupon Management
           </Link>
         </li>
         <li
           style={{
-            padding: "10px 20px",
+            padding: "18px 20px",
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
+
           }}
         >
           <FaCertificate />{" "}
-          <Link to="" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="" style={{ color: "black", textDecoration: "none" ,fontSize:"14px"}}>
             Kalkideals Certified Management
           </Link>
         </li>
         <li
           style={{
-            padding: "10px 20px",
+            padding: "18px 20px",
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
           }}
         >
           <FaAd />{" "}
-          <Link to="" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="" style={{ color: "black", textDecoration: "none" ,fontSize:"14px" }}>
             Advertisement
           </Link>
         </li>
         <li
   style={{
-    padding: "10px 20px",
+    padding: "18px 20px",
     display: "flex",
     alignItems: "center",
     gap: "10px",
-    borderBottom: "1px solid #ccc",
+    borderBottom:"3px solid #F6F8F9FF",
   }}
 >
   <FaFolderPlus />
   <Link
     to="/AddCategory"
-    style={{ color: "black", textDecoration: "none" }}
+    style={{ color: "black", textDecoration: "none" ,fontSize:"14px" }}
   >
     Add Category
   </Link>
 </li>
         <li
           style={{
-            padding: "10px 20px",
+            padding: "18px 20px",
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
           }}
         >
           <FaCog />{" "}
-          <Link to="" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="" style={{ color: "black", textDecoration: "none" ,fontSize:"14px" }}>
             Settings
           </Link>
         </li>
         <li
           style={{
-            padding: "10px 20px",
+            padding: "18px 20px",
             display: "flex",
             alignItems: "center",
             gap: "10px",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "3px solid #F6F8F9FF",
+            
           }}
         >
           <FaBell />{" "}
-          <Link to="" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="/SendNotification" style={{ color: "black", textDecoration: "none" ,fontSize:"14px" }}>
             Send Notification
           </Link>
         </li>
